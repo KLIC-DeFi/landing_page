@@ -4494,7 +4494,7 @@ function initHero() {
           },
           "line_linked": {
             "enable": true,
-            "distance": 120,
+            "distance": 130,
             "color": "#80ffaa",
             "opacity": 0.2,
             "width": 1.6
@@ -4510,7 +4510,7 @@ function initHero() {
             "attract": {
               "enable": false,
               "rotateX": 600,
-              "rotateY": 1200
+              "rotateY": 1200,
             }
           }
         },
@@ -4528,7 +4528,7 @@ function initHero() {
           },
           "modes": {
             "grab": {
-              "distance": 140,
+              "distance": 150,
               "line_linked": {
                 "opacity": 1
               }
