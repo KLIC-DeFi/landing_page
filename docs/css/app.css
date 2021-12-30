@@ -451,6 +451,10 @@ span.CodeMirror-selectedtext { background: none; }
 .is-long {
         width: 150px;
     }
+    
+.is-centered {
+        margin: 20px auto;
+    }
 
 
 . pageloader {
