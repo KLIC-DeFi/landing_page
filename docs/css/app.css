@@ -438,3 +438,15 @@ span.CodeMirror-selectedtext { background: none; }
 	background-color: #031000 !important;
 
 }
+
+.divisor {
+	height: 3px;
+    width: 75px;
+    margin: 20px 0;
+	background-image: linear-gradient(to right, #adeba2, #3f7336);
+}
+
+.is-long {
+        width: 150px;
+    }
+    
