@@ -451,3 +451,17 @@ span.CodeMirror-selectedtext { background: none; }
 .is-long {
         width: 150px;
     }
+
+
+. pageloader {
+    background-color: #ffffff;
+}
+
+.is-theme-verde {
+        background-image: linear-gradient(to right, #adeba2, #3f7336) !important;
+    }
+
+.infraloader {
+
+    background-color: #3f7336 !important; 
+}
