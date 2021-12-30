@@ -4455,13 +4455,13 @@ function initHero() {
             }
           },
           "color": {
-            "value": ["#5507fc"]
+            "value": ["#006622"]
           },
           "shape": {
             "type": "circle",
             "stroke": {
               "width": 5,
-              "color": "#5507fc"
+              "color": "#006622"
             },
             "polygon": {
               "nb_sides": 5
@@ -4495,7 +4495,7 @@ function initHero() {
           "line_linked": {
             "enable": true,
             "distance": 120,
-            "color": "#5507fc",
+            "color": "#80ffaa",
             "opacity": 0.2,
             "width": 1.6
           },
