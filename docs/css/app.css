@@ -418,9 +418,9 @@ span.CodeMirror-selectedtext { background: none; }
 }
 
 .btngradient {
-	background-image: linear-gradient(to right, #adeba2, #3f7336);
+	background-image: linear-gradient(to right, #adeba2, #3f7336) !important;
 	border: none !important;
-	background-color: ;
+	;
 
 }
 
@@ -438,7 +438,22 @@ span.CodeMirror-selectedtext { background: none; }
 
 .verdeosc {
 	background-color: #031000 !important;
+	color: white;
+	border: none;
 
+
+}
+
+.primary-gradient {
+    background: $primary;
+    background: -webkit-linear-gradient(to right, #adeba2, #3f7336 ) !important;
+    background: linear-gradient(to right, #adeba2, #3f7336) !important;
+}
+
+.secondary-gradient {
+    background: $secondary;
+    background: -webkit-linear-gradient(to right, #adeba2, #3f7336) !important;
+    background: linear-gradient(to right, #adeba2, #3f7336) !important;
 }
 
 .divisor {
@@ -470,3 +485,22 @@ span.CodeMirror-selectedtext { background: none; }
     background-color: #3f7336 !important; 
 }
 
+.countd-card {
+        width: 100%;
+        background-image: linear-gradient(to top, #adeba2, #3f7336) !important;
+
+        color: $white;
+        padding: 20px 40px;
+        border-radius: 6px;
+        animation-delay: .3s;
+}
+
+.button-pad-top {
+	margin-top: 20px;
+}
+
+
+
+.subscribe-button{
+	background-image: linear-gradient(to top, #adeba2, #3f7336) !important;
+}
