@@ -504,3 +504,57 @@ span.CodeMirror-selectedtext { background: none; }
 .subscribe-button{
 	background-image: linear-gradient(to top, #adeba2, #3f7336) !important;
 }
+
+.token-wrapper {
+    background: url(../img/bg/bg-token-top-verde.png) no-repeat top center, url(../img/bg/bg-token-left-verde.png) no-repeat top left, url(../img/bg/bg-token-bottom-verde.png) no-repeat bottom right, #031000 !important;
+}
+
+.roadmap-wrapper {
+    background: url(../img/bg/bg-token-top-verde.png) no-repeat top center, url(../img/bg/bg-token-left-verde.png) no-repeat top left, url(../img/bg/bg-token-bottom-verde.png) no-repeat bottom right, #031000 !important;
+}
+
+.main-timeline > ul > li {
+    border: 1px solid #ffffff;
+}
+
+.main-timeline ul  li div{
+    border: 1px solid #ffffff !important;
+    background: rgba(0, 16, 0, 0.5) !important;
+
+}
+
+.main-timeline ul  li div:before{
+	border-radius: 50%;
+    background: #ffffff !important;
+    width: 10px !important;
+    height: 10px !important;
+    border: 1px solid #ffffff !important;
+}
+
+.main-timeline ul li::after {
+
+            
+            background: rgba(255, 255, 255, .5) !important;
+        }
+
+.main-timeline ul li.in-view::after {
+
+            background: rgba(0,13,0,.8) !important;
+            border: 1px solid white !important;
+       
+        }
+
+
+ .main-timeline ul li.in-view::before {
+
+            background: rgba(0,13,0,.8) !important;
+            border: 0px solid white !important;
+       
+        }
+
+ .main-timeline ul li::before {
+
+            background: rgba(0,21,17,.5) !important;
+            border: 0px solid white !important;
+       
+        }
