@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kundalini</title>
 
-    <link rel="icon" type="image/png" href="img/icons/ico/Logo-Kundalini N ico.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
@@ -18,7 +18,7 @@
 
 <body>
 
-    <div id="pageloader" class="pageloader is-left-to-right is-theme-verde"></div>
+    <div id="pageloader" class="pageloader is-left-to-right is-theme"></div>
     <div id="infraloader" class="infraloader is-active"></div>    
     <div class="dark-wrapper">
         <!-- Landing page Hero -->
@@ -27,7 +27,7 @@
     
                 <!-- Cloned navbar -->
                 <!-- Cloned navbar that comes in on scroll -->
-                <nav x-data="initNavbar()"  x-on:scroll.window="scroll()" id="navbar-clone" class="navbar is-fixed verdeosc" :class="{
+                <nav x-data="initNavbar()"  x-on:scroll.window="scroll()" id="navbar-clone" class="navbar is-fixed is-dark" :class="{
                         'is-active': scrolled,
                         '': !scrolled
                     }">
@@ -35,7 +35,7 @@
                         <!-- Brand -->
                         <div class="navbar-brand">
                             <a href="index.html" class="navbar-item">
-                                <img class="rotating" src="img/icons/ico/Logo-Kundalini B ico.png" alt="">
+                                <img class="rotating" src="img/logo/krypton-gradient.svg" alt="">
                                 <span class="brand-name">Kundalini</span>
                             </a>
                             <!-- Responsive toggle -->
@@ -70,14 +70,17 @@
                                 </div>
                                 <!-- Menu item -->
                                 <div class="navbar-item is-nav-link">
-                                    <a class="is-centered-responsive" href="#" target="_blank">
+                                    <a class="is-centered-responsive" href="https://t.me/kundalinicoinKLIC" target="_blank">
                                         <img class="telegram" src="img/logo/telegram.svg" alt="">
                                         Telegram
                                     </a>
+                                    
+                                        
+                                    </p>
                                 </div>
                                 <!-- Sign up -->
                                 <div class="navbar-item is-nav-link">
-                                    <a href="#" class="button k-button btngradient raised has-gradient slanted">
+                                    <a href="#" class="button k-button k-primary raised has-gradient slanted">
                                         <span class="text">Register</span>
                                         <span class="front-gradient"></span>
                                     </a>
@@ -97,8 +100,8 @@
                         <!-- Brand -->
                         <div class="navbar-brand">
                             <a href="index.html" class="navbar-item">
-                                <img class="rotating" src="img/icons/ico/Logo-Kundalini B ico.png" alt="">
-                                <span class="brand-name">Kundalini</span>
+                                <img class="rotating" src="img/logo/krypton.svg" alt="">
+                                <span class="brand-name">Krypton</span>
                             </a>
                             <!-- Responsive toggle -->
                             <div class="navbar-burger" @click="openMobileMenu()">
@@ -132,14 +135,14 @@
                                 </div>
                                 <!-- Menu item -->
                                 <div class="navbar-item is-nav-link">
-                                    <a class="is-centered-responsive" href="#" target="_blank">
+                                    <a class="is-centered-responsive" href="https://t.me/kundalinicoinKLIC" target="_blank">
                                         <img class="telegram" src="img/logo/telegram.svg" alt="">
                                         Telegram
                                     </a>
                                 </div>
                                 <!-- Sign up -->
                                 <div class="navbar-item">
-                                    <a href="#" class="button k-button btngradient raised has-gradient slanted">
+                                    <a href="#" class="button k-button k-primary raised has-gradient slanted">
                                         <span class="text">Register</span>
                                         <span class="front-gradient"></span>
                                     </a>
@@ -167,11 +170,11 @@
                             </h2>
                             <!-- CTA -->
                             <p class="buttons">
-                                <a href="#start" class="button k-button btngradient raised has-gradient is-fat is-bold">
+                                <a href="#start" class="button k-button k-primary raised has-gradient is-fat is-bold">
                                     <span class="text">Roadmap</span>
                                     <span class="front-gradient"></span>
                                 </a>
-                                <a href="#" class="button k-button btngradient raised has-gradient is-fat is-bold">
+                                <a href="#" class="button k-button k-primary raised has-gradient is-fat is-bold">
                                     <span class="text">Whitepaper</span>
                                     <span class="front-gradient"></span>
                                 </a>
@@ -181,7 +184,7 @@
                         <!-- Hero image -->
                         <div class="column is-7">
                             <figure class="image">
-                                <img src="img/illustrations/kundaliniHero.png" alt="">
+                                <img src="img/illustrations/buildings.svg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -210,7 +213,7 @@
             <div class="container">
     
                 <div class="has-text-centered">
-                    <a class="button k-button <!--k-secondary--> btngradient raised has-gradient is-fat is-bold rounded">
+                    <a class="button k-button k-secondary raised has-gradient is-fat is-bold rounded">
                         <span class="text">Compra Kundalini en Pancakeswap</span>
                         <span class="front-gradient"></span>
                     </a>
@@ -219,7 +222,7 @@
                     
                     <div class="accepted-currencies">
                         <div>
-                            <i class="cf cf-btc "></i>
+                            <i class="cf cf-btc"></i>
                         </div>
                         <div>
                             <i class="cf cf-eth"></i>
@@ -235,14 +238,23 @@
 
 
                         <!-- App section -->
-        <section class="section is-medium <!--is-darkest-->">
+        <section class="section is-medium is-darkest">
             <!-- Container -->
             <div class="container">
                 <!-- Divider -->
-                <div class="divisor is-centered"></div>
+                <div class="divider is-centered"></div>
                 <!-- Title -->
                 <h2 class="title is-light is-semibold has-text-centered is-spaced">Aplicación Klickers</h2>
-                <h4 class="subtitle is-6 is-light has-text-centered is-compact">  </h4>
+                <h4 class="subtitle is-6 is-light has-text-centered is-compact"> Es una aplicación móvil que ofrece servicios
+                    de transporte y mandados, pero es
+                    descentralizada y automatizada, por eso
+                    Klickers es una comunidad de conductores y
+                    repartidores que se colaboran entre ellos
+                    mismos, ya que sus ganancias no dependen
+                    solo de los viajes que realice el conductor
+                    por si solo, sino que tendrá ganancias
+                    residuales que vendrán de los viajes que sus hacen 
+                    compañeros </h4>
     
                 <!-- Content wrapper -->
                 <div class="content-wrapper is-large">
@@ -253,13 +265,14 @@
                             <!-- Side feature -->
                             <div class="side-feature-content">
                                 <!-- Title -->
-                                <h3 class="title is-4 is-light"><img src="img/icons/ico/Logo-Kundalini B ico.png" alt=""> <span>Track everything with the App</span></h3>
+                                <h3 class="title is-4 is-light"><img src="img/icons/ico/bitnetwork.svg" alt=""> <span>Nuestra App</span></h3>
                                 <!-- Divider -->
-                                <div class="<!--divisor--> divisor is-long"></div>
-                                <p class="is-light">Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Eu impetus perfecto sit, no sea labore detraxit.</p>
+                                <div class="divider is-long"></div>
+                                <p class="is-light"> Klickers iniciará con 2 aplicaciones una para conductores en traslado de personas y mascotas como tambien una aplicacion para repartos y mandados. En el futuro Klickers impulsará la movilidad electrica a nivel mundial.
+                                    Nuestra aplicación tambien contará con un sistema de referidos donde podrás obtener el 10% de ganancia diario por la carrera de tus referidos. </p>
                                 <!-- CTA -->
                                 <div class="cta-wrapper">
-                                    <a href="#" class="button k-button btngradient raised has-gradient is-fat is-bold">
+                                    <a href="#" class="button k-button k-primary raised has-gradient is-fat is-bold">
                                         <span class="text">Download App</span>
                                         <span class="front-gradient"></span>
                                     </a>
@@ -268,7 +281,7 @@
                         </div>
                         <!-- Featured image -->
                         <div class="column is-7">
-                            <img class="side-feature" src="img/illustrations/app.png" alt="">
+                            <img class="side-feature" src="img/illustrations/krypton-app.svg" alt="">
                         </div>
                     </div>
     
@@ -285,14 +298,10 @@
             <!-- Container -->
             <div class="container">
                 <!-- Divider -->
-                <div class="divisor is-centered"></div>
+                <div class="divider is-centered"></div>
                 <!-- Title & subtitle -->
                 <h2 class="title is-light is-semibold has-text-centered is-spaced">Ecosistema Kundalini</h2>
-                <h4 class="subtitle is-6 is-light has-text-centered is-compact">KundaliniCoin ofrece una oportunidad para que millones de personas alrededor del mundo, puedan acceder a un ecosistema de plataformas tecnológicas que les ofrece la posibilidad de transformar sus estilos de vida, obteniendo ingresos adicionales de múltiples fuentes de inversión, poder viajar o acceder servicios médicos, desarrollar innovaciones tecnologías y comerciales, incentivar la agroindustria o simplemente mejorar los servicios públicos de sus ciudades.
-
-                    Esto gracias a que kundaliniCoin es un token 100% de utilidad pensado para desarrollar beneficios económicos y sociales a gran escala de manera ambiental.
-                    
-                    En otras palabras, el token se encargará de crear una comunidad muy diversa alrededor del mundo para que pueda tener acceso a los beneficios y transformaciones sociales de la nueva economía digital y ambiental.
+                <h4 class="subtitle is-6 is-light has-text-centered is-compact">Kundalini Coin ofrece la posibilidad de transformar tu vida a traves de un ecosistema de plataformas tecnologicas para millones de personas alrededor del mundo, obteniendo ingresos adicionales de multiples fuentes de inversión, como servicios medicos, de viajes, innovación tecnologica y comercial, servicios publicos y agroindustria. Esto gracias a que Kundalini Coin es un token 100% de utilidad pensado para desarrollar beneficios económicos y sociales a gran escala de manera ambiental
                     
                     </h4>
     
@@ -304,11 +313,11 @@
                         <div class="column is-5 is-offset-1">
                             <div class="side-feature-content">
     
-                                <h3 class="title is-4 is-light"><img src="img/icons/ico/metaverso.svg" alt=""> <span>Metaverso Hibrido - Exchange - CIC</span></h3>
-                                <div class="divisor is-long"></div>
+                                <h3 class="title is-4 is-light"><img src="img/icons/ico/bitbanner.svg" alt=""> <span>Metaverso Hibrido - Exchange - CIC</span></h3>
+                                <div class="divider is-long"></div>
                                 <p class="is-light"> El Metaverso Hibrido transformará el mundo fisico a traves de creaciones digitales, Nuestra Exchange busca posicionarse como la casa de cambio lider en centroamerica y tambien construiremos el mejor Centro de Innovacion e Investigacion Circular del Planeta </p>
                                 <div class="cta-wrapper">
-                                    <a href="token.html" class="button k-button btngradient raised has-gradient is-bold">
+                                    <a href="token.html" class="button k-button k-primary raised has-gradient is-bold">
                                         <span class="text">Learn More</span>
                                         <span class="front-gradient"></span>
                                     </a>
@@ -318,22 +327,22 @@
     
                         <!-- Feature image -->
                         <div class="column is-7">
-                            <img class="side-feature" src="img/illustrations/metaverso.png" alt="">
+                            <img class="side-feature" src="img/illustrations/token.svg" alt="">
                         </div>
                     </div>
     
                     <div class="columns is-vcentered">
                         <!-- Feature image desktop -->
                         <div class="column is-7 is-hidden-mobile">
-                            <img class="side-feature" src="img/illustrations/fronteras.png" style="padding: 50px;" alt="">
+                            <img class="side-feature" src="img/illustrations/blockchain-blocks.svg" alt="">
                         </div>
     
                         <!-- Feature content -->
                         <div class="column is-5">
                             <div class="side-feature-content">
     
-                                <h3 class="title is-4 is-light"><img src="img/icons/ico/fronteras.svg" alt=""> <span>Ciudades Verdes, Fronteras Naturales y Labriego</span></h3>
-                                <div class="divisor is-long"></div>
+                                <h3 class="title is-4 is-light"><img src="img/icons/ico/bitnetwork.svg" alt=""> <span>Ciudades Verdes, Fronteras Naturales y Labriego</span></h3>
+                                <div class="divider is-long"></div>
                                 <p class="is-light">Con el Programa de Ciudades Verdes Kundalini será pionero en la tokenizacion y digitalizacion de las politicas publicas, mediante el uso de Fronteras Naturales generará la reactivacion de la economia local y regional gracias al turismo ecologico y sustentable garantizando beneficios pasivos, tambien resguardará la producción agrícola bajo metodologías de sustentabilidad, eficiencia tecnológica e innovación circular en el Programa de Labriego</p>
                                 <div class="cta-wrapper">
                                         <span class="front-gradient"></span>
@@ -353,11 +362,11 @@
                         <div class="column is-5 is-offset-1">
                             <div class="side-feature-content">
     
-                                <h3 class="title is-4 is-light"><img src="img/icons/ico/directorio.svg" alt=""> <span>Directorio & Programas Educativos</span></h3>
-                                <div class="divisor is-long"></div>
+                                <h3 class="title is-4 is-light"><img src="img/icons/ico/bitmining.svg" alt=""> <span>Directorio & Programas Educativos</span></h3>
+                                <div class="divider is-long"></div>
                                 <p class="is-light">Por medio de nuestro directorio sus miembros como usuarios podrán obtener ventajas estratégicas y empresariales de gran ayuda como: Capacitación y educación gratuita, aliados comerciales, exposicion de marca, aplicaciones y tecnologia, Kundalini permitirá el acceso a la educación de manera universal, accesible, permanente y gratuita Todo esto gracias a nuestro directorio y programas como: Plantaton, Educar conciencias, Comercio eco y Voluntarios por la tierra </p>
                                 <div class="cta-wrapper">
-                                    <a href="#" class="button k-button btngradient raised has-gradient is-bold">
+                                    <a href="#" class="button k-button k-primary raised has-gradient is-bold">
                                         <span class="text">Join the ICO</span>
                                         <span class="front-gradient"></span>
                                     </a>
@@ -367,7 +376,7 @@
     
                         <!-- Feature image -->
                         <div class="column is-7">
-                            <img class="side-feature" src="img/illustrations/directorio1.png" alt="">
+                            <img class="side-feature" src="img/illustrations/crypto-mining.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -378,11 +387,11 @@
         <!-- /Side Features section -->
     
         <!-- ICO section -->
-        <section class="section is-medium <!--is-end-->">
+        <section class="section is-medium is-end">
             <!-- Container -->
             <div class="container">
                 <!-- Divider -->
-                <div class="divisor is-centered"></div>
+                <div class="divider is-centered"></div>
                 <!-- Title & subtitle -->
                 <h2 class="title is-light is-semibold has-text-centered is-spaced">Token Price</h2>
     
@@ -435,7 +444,7 @@
                                     <!-- ICO COuntdown -->
                                     <div class="column is-5">
                                         <!-- Card -->
-                                        <div class="<!--ico-card--> countd-card animated preFadeInUp fadeInUp">
+                                        <div class="ico-card animated preFadeInUp fadeInUp">
                                             <!-- Countdown -->
                                             <ul id="countdown" class="is-ico">
                                                 <li id="days">
@@ -468,7 +477,7 @@
     
                                             <!-- Button -->
                                             <div class="button-block">
-                                                <a href="#" class="button k-button button-pad-top <!--k-secondary--> raised has-gradient is-bold is-fullwidth rounded">
+                                                <a href="#" class="button k-button k-secondary raised has-gradient is-bold is-fullwidth rounded">
                                                     <span class="text">Join the ICO Now</span>
                                                     <span class="front-gradient"></span>
                                                 </a>
@@ -493,167 +502,12 @@
             <!-- /Container -->
         </section>
         <!-- /ICO section -->
-
-        <!-- Company section -->
-        <section class="section is-medium <!--has-big-dark-gradient-->">
-            <!-- Container -->
-            <div class="container">
-                <!-- Divider -->
-                <div class="divisor is-centered"></div>
-                <!-- Title & subtitle -->
-                <h2 class="title is-light is-semibold has-text-centered is-spaced">Our Team</h2>
-                <!-- Content wrapper -->
-                <div class="content-wrapper is-large">
-                    <div class="columns is-vcentered">
-    
-                        <div class="column is-hidden-mobile"></div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <!-- Card -->
-                                <div class="dark-card">
-                                    <!-- Avatar wrapper -->
-                                    <div class="avatar">
-                                        <!-- Svg circle -->
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <!-- Track -->
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <!-- Stroke -->
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <!-- Sketeched face -->
-                                        <img class="is-sketch" src="img/team/john.svg" alt="">
-                                        <!-- Real face -->
-                                        <img class="is-real" src="img/team/john.jpg" alt="">
-                                    </div>
-                                    <!-- Member meta -->
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Elias Cambronero</h4>
-                                        <div class="position">Founder / Ceo</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <div class="dark-card">
-                                    <div class="avatar">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <img class="is-sketch" src="img/team/lucy.svg" alt="">
-                                        <img class="is-real" src="img/team/lucy.jpg" alt="">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Bastian</h4>
-                                        <div class="position">Founder / COO</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <div class="dark-card">
-                                    <div class="avatar">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <img class="is-sketch" src="img/team/joshua.svg" alt="">
-                                        <img class="is-real" src="img/team/joshua.jpg" alt="">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Joshua Stevens</h4>
-                                        <div class="position">Engineer</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="column is-hidden-mobile"></div>
-                    </div>
-    
-                    <div class="columns is-vcentered">
-    
-                        <div class="column is-hidden-mobile"></div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <div class="dark-card">
-                                    <div class="avatar">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <img class="is-sketch" src="img/team/sara.svg" alt="">
-                                        <img class="is-real" src="img/team/sara.jpg" alt="">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Sara Jac</h4>
-                                        <div class="position">Founder / Ceo</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <div class="dark-card">
-                                    <div class="avatar">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <img class="is-sketch" src="img/team/mike.svg" alt="">
-                                        <img class="is-real" src="img/team/mike.jpg" alt="">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Mike Kovalsky</h4>
-                                        <div class="position">Founder / Ceo</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <!-- Team member -->
-                        <div class="column is-3">
-                            <div class="team-member-container">
-                                <div class="dark-card">
-                                    <div class="avatar">
-                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="140" height="140" xmlns="http://www.w3.org/2000/svg">
-                                            <circle class="circle-chart-background" stroke-width="1" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                            <circle class="circle-chart-circle" stroke-width="1" stroke-dasharray="33,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-                                        </svg>
-                                        <img class="is-sketch" src="img/team/sandra.svg" alt="">
-                                        <img class="is-real" src="img/team/sandra.jpg" alt="">
-                                    </div>
-                                    <div class="member-info">
-                                        <h4 class="title is-light is-6 is-tight">Sandra Bernard</h4>
-                                        <div class="position">Founder / Ceo</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="column is-hidden-mobile"></div>
-    
-                    </div>
-
-    
-                    <!-- Spaced divisor -->
-                    <div class="divisor is-centered is-spacer"></div>
+ 
+                   <!-- Spaced divider -->
+                    <div class="divider is-centered is-spacer"></div>
                     <!-- Title & subtitle -->
                     <h2 class="title is-light is-semibold has-text-centered is-spaced">FAQ</h2>
-                    <h4 class="subtitle is-6 is-light has-text-centered is-compact">Viderer malorum sadipscing cum ei. Eu impetus perfecto sit, no sea labore detraxit. Primis mediocrem necessitatibus an vis. Ut sea pertinax perpetua, eruditi volumus quaestio ex mel, has ei tota homero.</h4>
-    
+                    <h4 class="subtitle is-6 is-light has-text-centered is-compact"> Preguntas Frecuentes </h4>
                     <!-- Content wrapper -->
                     <div class="content-wrapper is-large">
                         <div class="columns">
@@ -665,10 +519,22 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle1" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle1">
-                                            What is Blockchain ?
+                                            Que es Klickers ?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p> Es una aplicación móvil que ofrece servicios
+                                                de transporte y mandados, pero es
+                                                descentralizada y automatizada, por eso
+                                                Klickers es una comunidad de conductores y
+                                                repartidores que se colaboran entre ellos
+                                                mismos, ya que sus ganancias no dependen
+                                                solo de los viajes que realice el conductor
+                                                por si solo, sino que tendrá ganancias
+                                                residuales que vendrán de los viajes de sus
+                                                compañeros. Ofreciéndole beneficios al
+                                                usuario de la aplicación y grandes ventajas
+                                                a los comercios asociados.
+                                                 </p>
                                         </div>
                                     </div>
     
@@ -676,10 +542,18 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle2" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle2">
-                                            What is ICO ?
+                                            Como un conductor le genera ganancias a otro?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>El conductor podría tener 100 códigos referidos de
+                                                usuarios, de los cuales podrá ganar el 10% del costo
+                                                de la carrera de cada uno de ellos diariamente,
+                                                aunque él no los transporte en su vehículo, por tanto,
+                                                al hacerlo sus compañeros se garantizara el pago de
+                                                sus ganancias por esos viajes en cualquier parte del
+                                                mundo, sin importar el horario o la distancia mientras
+                                                sea por medio de Klickers
+                                                 </p>
                                         </div>
                                     </div>
     
@@ -687,10 +561,19 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle3" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle3">
-                                            Where to get the Whitepaper ?
+                                            Que funciones tendrá Klickers?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>Klickers inicialmente tendrá 2
+                                                aplicaciones una para conductores en
+                                                el traslado de personas y mascotas y
+                                                otra para realizar mandados o reparto,
+                                                mas adelante klickers impulsará la
+                                                movilidad eléctrica entre sus
+                                                conductores y repartidores a nivel
+                                                mundial, ya que la aplicación se
+                                                proyecta en 10 años poder estar en
+                                                más de 80 países del mundo.</p>
                                         </div>
                                     </div>
     
@@ -698,10 +581,21 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle4" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle4">
-                                            What is Krypton Core Innovation ?
+                                            Como funciona la aplicación de Repartidor?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>La aplicación del repartidor técnicamente será muy
+                                                parecida a las otras aplicaciones solo que se le
+                                                piensa incorporar ciertas mejoras tecnológicas, dará
+                                                la posibilidad de generar pequeños emprendimientos
+                                                donde un repartidor podrá abrir 3 códigos de referido
+                                                para generar 3 nuevos repartidores y ganar por los
+                                                viajes de ellos.
+                                                Esta se explicará en su momento pero por el
+                                                momento podemos adelantar, que el inversionista
+                                                podra ganar por 750 viajes mensuales por cada
+                                                repartidor y ganara por un total de 40 repartidores.
+                                                 </p>
                                         </div>
                                     </div>
     
@@ -709,10 +603,23 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle5" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle5">
-                                            When will be the platform released ?
+                                            Quienes desarrollan la aplicación?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>La aplicación esta desarrollada por un
+                                                grupo interdisciplinario de
+                                                profesionales en diferentes áreas de la
+                                                programación como blockchain y
+                                                aplicaciones móviles, además de
+                                                especialistas en mercadeo, diseño,
+                                                manejo de datos, administración de
+                                                servicios, logística, entre otros
+                                                dirigidos por la empresa de tecnología
+                                                CambrOnline, orientados gracias a los
+                                                aportes y comentarios que realizan los
+                                                futuros usuarios y conductores en
+                                                diversas pruebas de aceptación en el
+                                                mercado realizadas. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -728,10 +635,14 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle6" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle6">
-                                            How much tokens will be sold ?
+                                            En cuantas tiendas de aplicaciones estará disponible Klickers?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p> La aplicación estará disponible para
+                                                Android y Apple pero inicialmente se
+                                                lanzará empezando por Android, para
+                                                después ir introduciéndola en las otras
+                                                tiendas. </p>
                                         </div>
                                     </div>
     
@@ -739,10 +650,16 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle7" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle7">
-                                            What happens if Soft Cap isn't reached ?
+                                            Como se van a cambiar los tokens en efectivo?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p> La aplicación va a poder manejar
+                                                ingresos en efectivo, al igual que el
+                                                token, también las personas podrán
+                                                acceder a capacitaciones para
+                                                entender como cambiar los KLIC por
+                                                efectivo en las casas de cambio.
+                                                 </p>
                                         </div>
                                     </div>
     
@@ -750,10 +667,19 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle8" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle8">
-                                            How much do you want to raise with the ICO ?
+                                            Cuáles son las verdaderas innovaciones de la aplicación?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>Klickers en palabra sencillas es una
+                                                aplicación que viene a cambiar la movilidad
+                                                a nivel mundial, por medio de la tecnología
+                                                blockchain, klickers ofrece rendimientos
+                                                económicos que ninguna aplicación móvil a
+                                                ofrecido antes, gracias a la automatización
+                                                y sistemas de descentralización, además
+                                                abre la posibilidad a la clase media para
+                                                poder acceder a financiamientos en
+                                                movilidad eléctrica. </p>
                                         </div>
                                     </div>
     
@@ -761,10 +687,21 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle9" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle9">
-                                            When will the tokens be distributed ?
+                                            Cuál sería el tiempo maximo de lanzamiento de la aplicación en caso de retraso? 
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>La aplicación trae muchas cosas
+                                                interesantes como su sistema de pago,
+                                                categorías de servicios, sistemas de
+                                                ingresos y normas de seguridad
+                                                tecnológicas. Estas condiciones tienen
+                                                su tiempo de desarrollo ya establecido,
+                                                pero si se diera un retraso la aplicación
+                                                estaría dentro de 6 meses máximo; aun
+                                                así, trataremos de no modificar la
+                                                fecha de salida a mercado, sino que
+                                                manejaríamos actualizaciones y
+                                                mejoras constantes en la misma </p>
                                         </div>
                                     </div>
     
@@ -772,10 +709,19 @@
                                     <div class="accordion-option">
                                         <input type="checkbox" id="toggle10" class="accordion-toggle" />
                                         <label class="accordion-title" for="toggle10">
-                                            Will their be Bounties ?
+                                            Que relación tiene la wallet con la aplicación?
                                         </label>
                                         <div class="accordion-content">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>La wallet o billetera virtual será un
+                                                servicio agregado a la aplicación donde
+                                                las personas podrán tener sus Kundalinis
+                                                Intercambiarlas por otras criptomonedas,
+                                                hacer uso de sus millas generadas por los
+                                                viajes en la aplicación y poder acceder al
+                                                directorio para conocer los descuentos
+                                                comerciales, así también podrá acceder a
+                                                la galería de NFTs de la fundación de Klic.
+                                                 </p>
                                         </div>
                                     </div>
                                 </div>
@@ -817,8 +763,8 @@
             <!-- Logo -->
             <div class="footer-logo">
                 <a href="#">
-                    <img class="rotating" src="img/logo/Logo-Kundalini B ico.png" alt="">
-                    <div class="brand-name">KUNDALINI</div>
+                    <img class="rotating" src="img/logo/krypton-gradient.svg" alt="">
+                    <div class="brand-name">Kundalini</div>
                     <div class="brand-subtitle">Blockchain brought to another level</div>
                 </a>
             </div>
@@ -846,7 +792,7 @@
                             <div class="control">
                                 <!-- Special input -->
                                 <input class="krypton-subscribe-input" type="email" name="email" placeholder="">
-                                <button class="button btngradient ">
+                                <button class="subscribe-button">
                                     <span>Subscribe</span>
                                 </button>
                             </div>
@@ -860,22 +806,14 @@
                             <a href="#">Register</a>
                         </li>
     
-                        <li>
-                            <a href="#">Media</a>
-                        </li>
     
                         <li>
-                            <a href="#">Telegram</a>
+                            <a href="https://t.me/kundalinicoinKLIC">Telegram</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- Copyright -->
-            <p class="k-copyright">© 2018-2021 | Krypton. All Rights Reserved</p>
-            <br>
             <!-- Made by -->
-            <p class="coded-by">Designed and Coded by <a href="https://cssninja.io" target="_blank">Css Ninja</a></p>
-        </div>
         
         <!-- Absolute image -->
         <img class="solar-system" src="img/bg/solar.svg" alt="">
