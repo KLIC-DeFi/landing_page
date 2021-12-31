@@ -558,3 +558,8 @@ span.CodeMirror-selectedtext { background: none; }
             border: 0px solid white !important;
        
         }
+
+.fillverdeclaro {
+	fill: #80ffaa !important;
+}
+
